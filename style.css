@@ -9,6 +9,10 @@
     --header-height: var(--header-height-mobile);
   }
 
+  .main-logo { 
+  width: 50px;
+  }
+
   .social-icons-header {
     gap: 20px;
   }
