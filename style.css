@@ -1,4 +1,4 @@
-﻿:root {
+:root {
   --header-height-desktop: 80px;
   --header-height-mobile: 60px;
   --header-height: var(--header-height-desktop);
