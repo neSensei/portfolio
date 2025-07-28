@@ -14,7 +14,7 @@
   }
 
   .social-icons-header img {
-    width: 20px;
+    width: 50px; /* Было 20px — теперь 50px как в футере */
   }
 
   .footer-logo {
@@ -93,16 +93,14 @@ header {
   gap: 10px;
 }
 
-
-
 .header-logo {
-  width: 50px; /* Такой же как у footer-links */
+  width: 50px; /* Было 20px на мобилках — теперь унифицировано */
   height: auto;
   transition: transform 0.3s ease;
 }
 
 .header-logo:hover {
-  transform: scale(1.2); /* Плавное увеличение при наведении */
+  transform: scale(1.2);
 }
 
 /* --- ОСНОВНОЙ КОНТЕНТ --- */
@@ -123,13 +121,13 @@ main h2 {
   padding-top: calc(var(--header-height));
 }
 
-/* --- IFRAME В СООТНОШЕНИИ 16:9 --- */
+/* --- IFRAME --- */
 .iframe-container {
   position: relative;
   width: 100%;
-  padding-top: 56.25%; /* 16:9 = 9 / 16 * 100% */
+  padding-top: 56.25%;
   margin: 20px 0;
-  background-color: #000; /* Фон под iframe */
+  background-color: #000;
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
